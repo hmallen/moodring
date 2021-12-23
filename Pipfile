@@ -4,14 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-jupyterlab = "*"
 pymongo = "*"
 google-cloud-language = "*"
-autopep8 = "*"
 wordcloud = "*"
 pandas = "*"
 
 [dev-packages]
+jupyterlab = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.9"

@@ -16,7 +16,7 @@ logger.setLevel(logging.DEBUG)
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    "-c", "--config", type=str, default="config.ini", help="Path to config file."
+    "-c", "--config", type=str, default="settings.conf", help="Path to config file."
 )
 args = parser.parse_args()
 
@@ -64,5 +64,11 @@ def create_dateframe(query={}):
     return df
 
 
+def get_users(df):
+    pass
+
+
 if __name__ == "__main__":
     dataframe = create_dateframe(query={})
+
+    print(dataframe)
